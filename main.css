@@ -1,0 +1,280 @@
+﻿/* main.css */
+
+/* For Mobile */
+.body 
+	{
+		font-family: arial;
+		margin: 0 auto;
+		overflow: auto;
+	}
+	.header
+        {
+            text-align: center;
+            border-radius: 0px 0px 10px 10px;
+            background-color: #007ACC;
+        }
+            .header img
+            {
+                width: 100%;
+			}
+			
+		.navbar
+        {
+            background-color: whitesmoke;
+			font-family: sans-serif;
+			font-size: 15px;
+			border-radius: 5px;
+		}
+            .navbar ul 
+            {
+				list-style-type: none;
+				margin-top: 20px;
+                overflow: hidden;
+            }
+                .navbar ul li 
+                {
+					float: left;
+					padding-right: 15px;
+					padding-left: 15px;
+                }
+                    .navbar ul li a
+                    {
+						background-color: #007ACC;
+                        border-radius: 5px;
+                        text-align: center;
+                        color: White;
+                        display: block;
+                        text-align: center;
+                        text-decoration: none;
+                        padding: 5px;
+						width: 120px;
+						margin: 10px 0 10px 0;
+                    }
+                    .navbar ul li a:hover
+                    {
+                        color: black;
+					}
+		.footer
+		{
+			font-size: 20px;
+			font-family: Forte, Arial, Helvetica, sans-serif;
+			padding: 5px;
+			bottom: 0;
+			width: 97.5%;
+			background-color: #007ACC;
+			color: black;
+			text-align: center;    
+			border-radius: 10px 10px 0px 0px ;
+			margin-top: 20px;
+		}
+		.contant
+        {
+			margin: 0;
+            background-color: whitesmoke;
+            border-radius: 15px;
+            overflow: auto;
+            width: 93%;
+            font-size: 20px;
+            padding: 0px 15px 15px 15px;
+        }
+            .contant h1
+            {
+                text-align: left;
+                padding-left: 0%;
+                font-size: 30px;
+            }
+            .contant p
+            {
+				text-indent: 50px;
+				font-size: 25px;
+            }
+            .contant img
+            {
+				width: 95%;
+			}
+			.table
+			{
+				border-collapse: collapse;
+				border: 1px solid black;
+				width: 100%;
+				font-size: 20px;
+				text-align: center;
+			}
+				.table img
+				{
+					text-align: center;
+					width: 80px;
+					height:50px;
+				}
+				.table td
+				{
+					padding: 5px;
+				}
+				.flotimg
+				{
+					float: left;
+					font-family: Arial, Helvetica, sans-serif;
+					margin: 10px 30px 30px 50px;
+					text-align: center;
+					background-color: white;
+					padding-bottom: 10px;
+					border: 1px solid #ccc;
+				}
+					.flotimg img
+					{
+						width: 250px;
+						height: 400;
+					}
+			.cont-table
+			{
+				font-size: 15px;
+				margin: 20px 0 20px 0px;
+			}
+			
+        
+/* Tables */
+@media only screen and (min-width: 500px) 
+{
+	.header
+			{
+				margin: 0 auto;
+			}
+			.header img
+			{
+				width: 80%;
+			}
+			.navbar
+				{
+					margin: 0 0 0 0;
+					font-size: 20px;
+				}
+				.navbar ul li a
+				{
+					width: 150px;
+					padding: 15px;
+				}
+			.footer
+			{
+				font-size: 35px;
+				width: 99%;
+			}
+			.contant
+			{
+				width: 97%;
+			}
+			.contant h1
+            {
+				padding-left: 2%;
+                font-size: 35px;
+			}
+			.contant p
+            {
+			    font-size: 25px;
+			}
+			.contant img
+            {
+				margin-left: 5%;
+				width: 85%;
+			}
+			.contant .flotimg img
+			{
+				margin-left: 0%;
+			}
+			.table
+			{	
+				font-size: 30px;
+			}
+				.table img
+				{
+					width: 180px;
+					height:90px;
+				}
+				.table td
+				{
+					padding: 5px;
+				}
+				.flotimg img
+				{
+						width: 250px;
+						height: 400;
+				}
+				.cont-table
+				{
+					font-size: 25px;
+				}
+}
+/* For Computers */
+@media only screen and (min-width: 1025px) 
+{
+				.header
+				{
+					margin: 0% 10% 0% 10%;
+				}
+				.header img
+				{
+					width: 50%;
+				}
+				.navbar
+				{
+					background-color: whitesmoke;
+					margin: 0 10% 0 10%;
+					font-size: 20px;
+				}
+				.navbar ul li a
+				{
+					width: 150px;
+					padding: 15px;
+				}
+				.footer
+				{	
+					margin-left: 10%;
+					font-size: 30px;
+					width: 80%;
+				}
+				.contant
+				{
+					margin: 0 auto;
+					width: 78%;
+				}
+				.contant h1
+				{
+					padding-left: 0%;
+					font-size: 35px;
+				}
+				.contant img
+				{
+					margin-left: 25%;
+					width: 35%;
+				}
+				.contant h1
+				{
+					font-size: 35px;
+				}
+				.contant .flotimg img
+				{
+					padding-left: 0%;
+						filter: blur(0px);
+						width: 250px;
+						height: 400;
+				}
+				.flotimg
+				{
+					float: left;
+					font-family: Arial, Helvetica, sans-serif;
+					margin: 10px 30px 30px 30px;
+				}
+				.table
+				{	
+					width: 80%;
+					font-size: 25px;
+				}
+				.table img
+				{
+					width: 250px;
+					height:150px;
+				}
+				.table td
+				{
+					padding: 15px;
+				}
+	}
